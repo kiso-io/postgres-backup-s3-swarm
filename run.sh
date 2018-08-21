@@ -1,6 +1,6 @@
-#! /bin/sh
+#!/usr/bin/env bash
 
-set -e
+set -eo pipefail
 
 # usage: file_env VAR [DEFAULT]
 #    ie: file_env 'XYZ_DB_PASSWORD' 'example'
