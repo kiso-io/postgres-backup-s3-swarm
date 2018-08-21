@@ -5,7 +5,7 @@ set -ex
 USERNAME=rapidrails
 
 # image name
-IMAGE=postgresq-backup-s3-swarm
+IMAGE=postgres-backup-s3-swarm
 
 # ensure we're up to date
 git pull
